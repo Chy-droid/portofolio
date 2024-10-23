@@ -1,0 +1,44 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181c14;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.text{
+    color: #e5e5e5;
+}
+
+.nama{
+    color: #ecdfcc;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;   
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family:  "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #e5e5e5;
+}

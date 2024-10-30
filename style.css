@@ -2,13 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #181c14;
 }
 
-nav {
+.navigasi {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
@@ -16,6 +17,9 @@ nav {
     margin-right: 50px;
 }
 
+nav{
+    background-color: #3c3D37;
+}
 .text{
     color: #e5e5e5;
 }
@@ -24,21 +28,46 @@ nav {
     color: #ecdfcc;
 }
 
-nav ul {
+.navigasi ul {
     display: flex;
     align-items: center;
     gap: 2rem;
     list-style: none;   
 }
 
-nav ul li a {
+.navigasi ul li a {
     text-decoration: none;
     font-family:  "DM Serif Display", serif;
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
+    
 }
 
-nav ul li a:hover {
+.navigasi ul li a:hover {
     border-bottom: 1px solid #e5e5e5;
+}
+
+.beranda .awalan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.head{
+    color: white;
+    margin-right: 250px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    font-size: 50px;
+}
+
+img{
+    width: 470px;
 }

@@ -1,73 +1,134 @@
-*, html {
+*{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #181c14;
+html{
+    overflow-x: hidden;
 }
 
-.navigasi {
+body{
+    background-color: #181C14;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    margin-left: 100px;
-    margin-right: 50px;
+    padding: 2rem 5%;
+    background-color: #3C3D37;
 }
 
-nav{
-    background-color: #3c3D37;
+.logo{
+    font-size: 32px;
+    transition: 0.3s ease;
+    color: #ECDFCC;
 }
-.text{
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.navbar a{
+    font-size: 24px;
+    margin-left: 4rem;
+    font-weight: 195;
+    transition: 0.3s ease;
     color: #e5e5e5;
 }
 
-.nama{
-    color: #ecdfcc;
-}
-
-.navigasi ul {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    list-style: none;   
-}
-
-.navigasi ul li a {
-    text-decoration: none;
-    font-family:  "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #ffffff;
-    
-}
-
-.navigasi ul li a:hover {
+.navbar a:hover{
     border-bottom: 1px solid #e5e5e5;
 }
 
-.beranda .awalan{
+#menu-icon{
+    font-size: 3.6rem;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img{
+    width: 299px;
+    cursor: pointer;
+}
+
+.home-content{
+    margin-left: 5rem;
+    color: white;
+}
+
+.home-content h3{
+    font-size: 64px;
+    font-weight: 736;
+}
+
+.home-content h3:nth-of-type(2){
+    margin-bottom: 2rem;
+}
+
+.home-content p{
+    font-size: 24px;
+}
+
+.about{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 250px;
+    gap: 2rem;
 }
 
-.head{
+.about-img img{
+    width: 351px;
+}
+
+.heading{
+    font-size: 64px;
+    text-align: left;
     color: white;
-    margin-right: 250px;
 }
 
-h1{
-    font-size: 80px;
+.about-content{
+    padding: 0 4rem;
 }
 
-p{
-    font-size: 50px;
+.about-content p{
+    font-size: 24px;
+    margin: 2rem 0 3rem;
+    color: white;
 }
 
-img{
-    width: 470px;
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about-container .about-box{
+    flex: 1 1 30rem;
+    background: #3C3D37;
+    padding: 6rem 2rem 6rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.3rem solid #3C3D37;
 }

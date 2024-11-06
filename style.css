@@ -131,4 +131,5 @@ section{
     border-radius: 2rem;
     text-align: center;
     border: 0.3rem solid #3C3D37;
+    position: relative;
 }
